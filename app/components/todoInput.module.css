@@ -1,0 +1,22 @@
+.messageBox {
+    width: 100%;
+    height: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.error {
+    color: red;
+}
+
+.loading {
+    color: orange;
+}
+
+.success {
+    color: green;
+}
