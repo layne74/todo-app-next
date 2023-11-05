@@ -1,0 +1,29 @@
+.todoContent {
+    cursor: pointer;
+}
+
+.todoBox {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 300px;
+}
+
+.todoBox button {
+    color: red;
+    align-self: center;
+    background-color: transparent;
+    border: none;
+    outline: none;
+}
+
+.todoBox button:hover {
+    color: orangered;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.checked {
+    text-decoration: line-through;
+    color: #888;
+}

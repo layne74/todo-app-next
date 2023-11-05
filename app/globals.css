@@ -105,3 +105,21 @@ a {
     color-scheme: dark;
   }
 }
+
+.todo-box{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 300px;
+}
+
+.todo-box button{
+  height: 5px;
+  width: 250px;
+  flex: 0;
+}
+
+.checked {
+  text-decoration: line-through;
+  color: #888;
+}
